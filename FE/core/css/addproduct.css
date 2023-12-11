@@ -1,0 +1,75 @@
+/* -------------------------add producte----------------------------- */
+.container {
+    border-radius: 5px;
+    padding: 20px;
+  }
+.container h2 {
+    padding: 20px 0 ;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.btn_controler {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+input[type=text], select, textarea{
+    margin-bottom: 15px;
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    font-size: 1.8rem;
+  }
+label {
+    font-size: 2rem;
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+.col-25 {
+    padding-left: 200px;
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+/* ----------------table--------------------- */
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 90%;
+  }
+table th {
+  font-size: 2rem;
+}
+table td {
+  font-size: 2rem;
+}
+table a{
+  font-size: 2rem;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+.btn_delete_update {
+  align-items: center;
+  text-align: center;
+}
