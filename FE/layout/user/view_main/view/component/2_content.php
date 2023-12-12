@@ -5,7 +5,7 @@
         $listbanner = loadall_banner();
         foreach ($listbanner as $banner) {
             extract ($banner);
-            $img_link = "../../../FE/core/upload/";
+            $img_link = "../../FE/core/upload/";
             $hinh = $img_link.$hinhanh_banner;
             echo '<div class="swiper-slide poster"><img src="'. $hinh.'" alt=""></div>';
         }
@@ -24,7 +24,7 @@
             echo '  <h1>'.$khuyenmai_sukien.'</h1>';
             echo '<p>'.$mota_sukien.'</p>';
             echo '<a href="" class="btn">Shop now</a>';
-            $img_link = "../../../FE/core/upload/";
+            $img_link = "../../FE/core/upload/";
             $hinh = $img_link.$hinhanh_sukien;
         }
         ?>

@@ -4,7 +4,7 @@
             <?php
                 foreach ($sanpham as $sanpham) {
                     extract($sanpham);
-                    $img_link = "../../../FE/core/upload/";
+                    $img_link = "../../FE/core/upload/";
                     $hinh = $img_link.$hinhanh_sanpham;
                     echo '
                     <div class="phone">

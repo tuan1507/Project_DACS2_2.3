@@ -7,12 +7,12 @@
     <title>Website</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="../../../FE/core/css/home.css">
-    <link rel="stylesheet" href="../../../FE/core/css/header.css">
-    <link rel="stylesheet" href="../../../FE/core/css/reponsi.css">
-    <link rel="stylesheet" href="../../../FE/core/css/login.css">
-    <link rel="stylesheet" href="../../../FE/core/css/shop.css">
-    <link rel="stylesheet" href="../../../FE/core/css/addproduct.css">
+    <link rel="stylesheet" href="../../FE/core/css/home.css">
+    <link rel="stylesheet" href="../../FE/core/css/header.css">
+    <link rel="stylesheet" href="../../FE/core/css/reponsi.css">
+    <link rel="stylesheet" href="../../FE/core/css/login.css">
+    <link rel="stylesheet" href="../../FE/core/css/shop.css">
+    <link rel="stylesheet" href="../../FE/core/css/addproduct.css">
 </head>
 
 <body>

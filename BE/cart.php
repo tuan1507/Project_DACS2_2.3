@@ -78,14 +78,19 @@ function viewcart_thanhtoan() {
     return pdo_execute_return_lastInsertId($sql);
  }
  function insert_cart($id_account,$id_sanpham,$img,$ten_sanpham,$giasp,$soluong,$thanhtien,$id_bill){
-    $sql="insert into cart(id_account,id_sanpham,img,ten_sanpham,giasp,soluong,thanhtien,id_bill)
+    $sql="INSERT INTO cart(id_account,id_sanpham,img,ten_sanpham,giasp,soluong,thanhtien,id_bill)
           values('$id_account','$id_sanpham','$img','$ten_sanpham','$giasp','$soluong','$thanhtien','$id_bill')";
     return pdo_execute($sql);
  }
  function loadone_bill($id){
-    $sql= "select * from bill where id=".$id;
+    $sql= "SELECT * from bill where id=".$id;
     $bill = pdo_query_one($sql);
     return $bill;
  }
-
+ function load_bill($id_account){
+    $sql= "SELECT * from bill ";
+    if ($id_account>0) $sql.=" AND id_account=".$id_account;
+    $sql.="ORDER BY id DESC";
+    pdo_query_one($sql);
+ }
 ?>

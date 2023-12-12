@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="../../../FE/core/css/home_admin.css">
-    <link rel="stylesheet" href="../../../FE/core/css/header.css">
-    <link rel="stylesheet" href="../../../FE/core/css/reponsi.css">
-    <link rel="stylesheet" href="../../../FE/core/css/login.css">
-    <link rel="stylesheet" href="../../../FE/core/css/shop.css">
-    <link rel="stylesheet" href="../../../FE/core/css/addproduct.css">
+    <link rel="stylesheet" href="../../FE/core/css/home_admin.css">
+    <link rel="stylesheet" href="../../FE/core/css/header.css">
+    <link rel="stylesheet" href="../../FE/core/css/reponsi.css">
+    <link rel="stylesheet" href="../../FE/core/css/login.css">
+    <link rel="stylesheet" href="../../FE/core/css/shop.css">
+    <link rel="stylesheet" href="../../FE/core/css/addproduct.css">
 </head>
 
 <body>
@@ -30,7 +30,6 @@
                 <li><a href="index.php?act=dangnhap" class="fas fa-user" id="user"></a>
                     <ul class="taikhoan">
                         <?php
-                        session_start();
                         if (isset($_SESSION['user'])) {
                             extract($_SESSION['user']);
                             $user_account = isset($user_account) ? $user_account : '';
@@ -54,6 +53,7 @@
                 <a href="index.php?act=add_sp">Sản phẩm</a>
                 <a href="index.php?act=add_banner">Banner</a>
                 <a href="index.php?act=add_sukien">Sale off</a>
+                <a href="index.php?act=donhang">Đơn hàng</a>
             </nav>
 
         </div>

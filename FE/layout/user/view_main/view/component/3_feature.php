@@ -6,7 +6,7 @@
                 <div class="swiper-wrapper">';
                 foreach ($sanpham_tainghe as $sanpham) {
                     extract($sanpham);
-                    $img_link = "../../../FE/core/upload/";
+                    $img_link = "../../FE/core/upload/";
                     $hinh = $img_link.$hinhanh_sanpham;
                     echo '
                     <div class="swiper-slide box">
@@ -40,7 +40,7 @@
                 <div class="swiper-wrapper">';
                 foreach ($sanpham_mouse as $sanpham) {
                     extract($sanpham);
-                    $img_link = "../../../FE/core/upload/";
+                    $img_link = "../../FE/core/upload/";
                     $hinh = $img_link.$hinhanh_sanpham;
                     echo '
                     <div class="swiper-slide box">
@@ -74,7 +74,7 @@
                 <div class="swiper-wrapper">';
                 foreach ($sanpham_speak as $sanpham) {
                     extract($sanpham);
-                    $img_link = "../../../FE/core/upload/";
+                    $img_link = "../../FE/core/upload/";
                     $hinh = $img_link.$hinhanh_sanpham;
                     echo '
                     <div class="swiper-slide box">
@@ -124,4 +124,4 @@
    </div>
    <!-- --------login----------- -->
    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-   <script src="../js/home.js"></script>
+   <script src="js/home.js"></script>

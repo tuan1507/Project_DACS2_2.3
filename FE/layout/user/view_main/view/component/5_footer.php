@@ -39,7 +39,7 @@
 
     <!-- js file -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="../../../FE/core/js/home.js"></script>
+    <script src="../../FE/core/js/home.js"></script>
     </body>
 
     </html>

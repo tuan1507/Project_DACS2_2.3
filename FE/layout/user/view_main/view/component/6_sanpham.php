@@ -5,7 +5,7 @@
                 foreach ($dssp as $sanpham) {
                     extract($sanpham);
                     $linksp = "index.php?act=sanpham&idsp=".$id_danhmuc;
-                    $img_link = "../../../FE/core/upload/";
+                    $img_link = "../../FE/core/upload/";
                     $hinh = $img_link.$hinhanh_sanpham;
                     echo '
                     <div class="phone">
